@@ -1,0 +1,17 @@
+.projects-section{
+    padding: 1.5rem 0 0 3rem;
+    width: 30rem;
+}
+
+.header3{
+    color: grey;
+}
+
+.projects-list ul{
+    padding:0;
+    margin: 0;
+}
+.projects-list ul li{
+      list-style-type: none;
+      
+}
