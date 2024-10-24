@@ -1,17 +1,35 @@
-.projects-section{
-    padding: 1.5rem 0 0 3rem;
-    width: 30rem;
+.projects-section {
+  padding: 1.5rem 0 0 3rem;
+  width: 30rem;
 }
 
-.header3{
-    color: grey;
+.header3 {
+  color: grey;
 }
 
-.projects-list ul{
-    padding:0;
-    margin: 0;
+.projects-list ul {
+  padding: 0;
+  margin: 0;
 }
-.projects-list ul li{
-      list-style-type: none;
-      
+.projects-list ul li {
+  list-style-type: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.project-images-div {
+    display: flex;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.project-image{
+    width: 45rem;
+    height: 30rem;
+    margin-left: 40rem;
+    margin-top: -25rem;
+    opacity: hoveredProject ? 1 : 0,;
+    transition: 'opacity 0.5s ease-in-out';
+    
 }

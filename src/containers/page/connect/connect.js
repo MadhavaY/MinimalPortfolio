@@ -9,11 +9,11 @@ function Connect() {
 
             <section className="connect-list">
             <ul>
-                <li> <a href="https://github.com/MadhavaY?tab=overview&from=2024-10-01&to=2024-10-15">Github</a> </li>
-                <li> <a href="https://www.linkedin.com/in/madhava-y/">LinkedIn</a></li>
-                <li> <a href="mailto:madhavayedla@gmail.com">Email</a> </li>
-                <li> <a href="https://www.instagram.com/madhava.yedla/">Instagram</a></li>  
-                <li> <a href="https://www.instagram.com/madhava.yedla/">CV</a></li>  
+                <li> <a href="https://github.com/MadhavaY?tab=overview&from=2024-10-01&to=2024-10-15" target="_blank">Github</a> </li>
+                <li> <a href="https://www.linkedin.com/in/madhava-y/" target="_blank">LinkedIn</a></li>
+                <li> <a href="mailto:madhavayedla@gmail.com" target="_blank">Email</a> </li>
+                <li> <a href="https://www.instagram.com/madhava.yedla/" target="_blank">Instagram</a></li>  
+                <li> <a href="https://drive.google.com/file/d/1ISw797FlN30-DqPzFjwCedAnTJbGZjRU/view?usp=sharing" target="_blank">CV</a></li>  
             </ul>
  
         </section>
