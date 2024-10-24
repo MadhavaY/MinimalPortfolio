@@ -29,7 +29,7 @@
     height: 30rem;
     margin-left: 40rem;
     margin-top: -25rem;
-    opacity: hoveredProject ? 1 : 0,;
-    transition: 'opacity 0.5s ease-in-out';
+    /* opacity: hoveredProject ? 1 : 0,;
+    transition: 'opacity 0.5s ease-in-out'; */
     
 }
