@@ -3,6 +3,7 @@ import "./projects.css";
 import RQG from "./images/RQG.png";
 import portfolio from "./images/portfolio.png";
 import BTD2 from "./images/BTD 2.png";
+import tictactoe from "./images/tictactoe.png";
 
 const Projects = () => {
   // List of projects and their corresponding image paths
@@ -16,7 +17,10 @@ const Projects = () => {
       image: RQG,
     },
     { name: "Movie Recommendation system", image: "" },
+
     { name: "Portfolio", image: portfolio },
+
+    { name: "TicTacToe", image: tictactoe },
   ];
 
   // State to track the currently hovered project
@@ -55,15 +59,19 @@ const Projects = () => {
 
       {/* Display the image when a project name is hovered */}
       {hoveredProject && (
-        <div className="project-images-div"
-        // style={{ marginTop: "20px" }}
-        style={{opacity: hoveredProject ? 1 : 0,
-          transition: 'opacity 1s ease-in-out',}}
+        <div
+          className="project-images-div"
+          // style={{ marginTop: "20px" }}
         >
           <img
             className="project-image"
             src={hoveredProject.image}
             alt={hoveredProject.name}
+            style={{
+              opacity: hoveredProject ? 1 : 0,
+              transition: 'opacity 1s ease-in-out',
+            }}
+
             // style={{ width: "300px", height: "200px" }}
           />
         </div>

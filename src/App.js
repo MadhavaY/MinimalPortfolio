@@ -1,19 +1,30 @@
-import "./App.css";
-import Page from "./containers/page";
-import About from "./containers/page/about";
-import Projects from "./containers/page/projects/projects";
-import Connect from "./containers/page/connect/connect";
-import Navbar from "./containers/page/Navbar";
+// import "./App.css";
+import Page from "./components/page";
+import About from "./components/page/about";
+import Projects from "./components/page/projects/projects";
+import Connect from "./components/page/connect/connect";
+import Navbar from "./components/page/Navbar";
+import {Route, Routes} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Navbar/>
-        <Page />
-        <About />
-        <Projects />
-        <Connect />
+        {/* <Page/> */}
+        {/* <About/> */}
+        {/* <About /> */}
+        {/* <Projects /> */}
+        {/* <Connect /> */}
+
+      <Routes>
+        <Route path="/" element={<Page/>}></Route>
+        <Route path="/projects" element={<Projects/>}></Route>
+        <Route path="/about" element={<About/>}></Route>
+        <Route path="/connect" element={<Connect/>}></Route>
+      </Routes>
+
+        
       </header>
     </div>
   );

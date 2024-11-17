@@ -1,0 +1,45 @@
+
+.page{
+    left: 0;
+}
+
+.main-header{
+    color: black;
+    
+    
+    padding: 0 0 0 3rem;
+    /* margin: auto; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* border: 1px solid; */
+    width: 90rem;
+    height: 30rem;
+    /* border: 1px solid; */
+
+}
+
+.name-heading{
+    font-weight: 200;
+    font-size: 5rem;
+}
+
+.information{
+    font-size: 1rem;
+}
+
+.text{
+    /* font-weight: 500; */
+    font-size: 1rem;
+    /* line-height: 0.1rem; */
+}
+
+.intro{
+    float: right;
+    margin-top: 10rem;
+    width: 40rem;
+}
+
+.information{
+    font-size: 1.06rem;
+    line-height: 1.7;
+}
