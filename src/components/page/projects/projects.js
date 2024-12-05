@@ -11,16 +11,34 @@ const Projects = () => {
     {
       name: "Brain Tumor Detection",
       image: BTD2,
+      link: ""
     },
     {
       name: "Synthetic Data with GANs",
       image: RQG,
+      link: "https://github.com/MadhavaY/TumorCycleGan"
     },
-    { name: "Movie Recommendation system", image: "" },
+    { name: "Movie Recommendation system", 
+      image: "",
+      link: ""
+    
+    },
 
-    { name: "Portfolio", image: portfolio },
+    { name: "Portfolio", 
+      image: portfolio,
+      link: "https://madhavaportfolio.vercel.app/"
+    
+    },
 
-    { name: "TicTacToe", image: tictactoe },
+    { name: "TicTacToe", 
+      image: tictactoe,
+      link: "https://tictactoe-madhavay.vercel.app/"
+    },
+
+    { name: "Random Quotes Generator", 
+      image: tictactoe,
+      link: "https://infinitequote.netlify.app/"
+    },
   ];
 
   // State to track the currently hovered project
@@ -48,9 +66,10 @@ const Projects = () => {
                 key={index}
                 onMouseEnter={() => handleMouseEnter(project)}
                 onMouseLeave={handleMouseLeave}
-                style={{ cursor: "pointer" }}
               >
+                <a className="project-link" href={project.link} target="_blank" rel="noopener noreferrer">
                 {project.name}
+                </a>
               </li>
             ))}
           </ul>

@@ -5,7 +5,7 @@ function About() {
   return (
     <div className="intro">
       <section className="">
-        {/* <section className="header2">About</section> */}
+        <section className="header2">About</section>
         <section className="">
           {" "}
           A Computer Science graduate student with interests in Machine Learning
