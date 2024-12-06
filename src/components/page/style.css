@@ -21,25 +21,51 @@
 .name-heading{
     font-weight: 200;
     font-size: 5rem;
+    /* color: #383B39; */
+    color: #9DA69F;
+    color: #b6b6d5;
+    color: #d2c876;
+    color: #9bc8b8;
+    /* color: #7ca081; */
 }
 
 .information{
     font-size: 1rem;
+    color: #dddbd9;
+    color: #b6b6d5;
+    color: #d2c876;
+    color: #9bc8b8;
+    color: #7ca081;
 }
 
 .text{
     /* font-weight: 500; */
     font-size: 1rem;
     /* line-height: 0.1rem; */
+    color: #dddbd9;
+    color: #b6b6d5;
+    color: #d2c876;
+    color: #9bc8b8;
+    color: #7ca081;
 }
 
 .intro{
     float: right;
     margin-top: 10rem;
     width: 40rem;
+    color: #dddbd9;
+    color: #b6b6d5;
+    color: #d2c876;
+    color: #9bc8b8;
+    color: #7ca081;
 }
 
 .information{
     font-size: 1.06rem;
     line-height: 1.7;
+    color: #dddbd9;
+    color: #b6b6d5;
+    color: #d2c876;
+    color: #9bc8b8;
+    color: #7ca081;
 }

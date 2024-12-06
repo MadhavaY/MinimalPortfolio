@@ -5,6 +5,7 @@
     /* right: 0; */
     bottom: 0;
     font-size: 1.1rem;
+    color: #dddbd9;
 
 }
 
@@ -14,7 +15,7 @@
 }
 .navbar-list ul li{
       list-style-type: none;
-
+      color: #dddbd9;
       
 }
 
@@ -25,5 +26,11 @@
 
 .navbar-list ul a{
    text-decoration: none;
-   color: black;
+   /* color: black; */
+   color: #dddbd9;
+   color: #b6b6d5;
+   color: #d2c876;
+   color: #9bc8b8;
+   color: #7ca081;
+   /* color: #c9ad93; */
 }
