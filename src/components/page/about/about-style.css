@@ -1,16 +1,10 @@
 
-.page{
-    margin-top: 5rem;
+
+.about-section{
+    position:relative;
+   right: 4rem;
 }
 
-/* .intro{
-    float: right;
-    padding: 1rem;
-} */
-.about-section{
-    padding: 0 2rem 0 3rem;
-     width: 30rem;
-}
 
 
 .header2{

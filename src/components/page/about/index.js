@@ -4,18 +4,20 @@ import "./about-style.css";
 function About() {
   return (
     <div className="intro">
-      <section className="">
+      <section className="about-section">
         <section className="header2">About</section>
         <section className="">
           {" "}
-          A Computer Science graduate student with interests in Machine Learning
-          and front-end development. School has really helped build my interest
-          in developing smart systems while making sure they're usable at the
-          same time. I just love combining technical problem-solving with the
-          creativity of designing interfaces with strong knowledge in algorithms
-          and programming. I look forward to creating new applications, using
-          those skills to push beyond what is possible in both AI and web
-          development.{" "}
+
+          I’m all about machine learning because it’s the only field where overthinking is called feature engineering.
+          I also create my own websites and nothing sparks joy quite like fixing a div that refuses to center, except maybe 
+          convincing myself the bug was a feature. I use Pytorch for my ML projects and React for the front-end tasks. I read books, touch type, watch movies and play badminton in my free time.
+           Some of my favorite movies are Jersey(2019), La La Land, Whiplash.
+       {" "}
+        </section>
+            <br/>
+        <section>
+          
         </section>
       </section>
     </div>
