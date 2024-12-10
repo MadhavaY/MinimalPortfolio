@@ -2,7 +2,7 @@
 
 .about-section{
     position:relative;
-   right: 4rem;
+    right: 4rem;
 }
 
 
@@ -16,3 +16,13 @@
 /* .information{
     font-size: 1.06rem;
 } */
+
+
+@media only screen and (max-width:870px) {
+
+    .about-section{
+        /* position:; */
+        right: 0;
+    }
+    
+}
