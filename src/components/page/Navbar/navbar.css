@@ -34,3 +34,10 @@
    color: #7ca081;
    /* color: #c9ad93; */
 }
+
+@media only screen and (max-width:870px) {
+    .navbar{
+        padding: 2rem;
+        /* margin-top: 20rem; */
+    }
+}
